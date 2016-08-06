@@ -11,8 +11,9 @@ I've updated this for use with crontab and included my own wallpaper cycle scrip
 ## Installation
 
 Just point your crontab to the appropriate files.
-*man crontab*
-*crontab -e*
+
+*man crontab*  
+*crontab -e*  
 *crontab -l*
 
 ### Args for wallpaper downloads:
