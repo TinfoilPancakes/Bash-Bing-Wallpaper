@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-PICTURE_DIR="$HOME/Pictures/Background Slideshow/"
+H_DIR=$1
+
+PICTURE_DIR="$H_DIR/$2"
 
 mkdir -p "$PICTURE_DIR"
 
