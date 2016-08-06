@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Created by: Prateek R Patil
+# Usage - pass username as first argument, and directory to search for pictures as second.
 USER=$1
 PID=$(pgrep -u $USER gnome-session)
 export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-)
